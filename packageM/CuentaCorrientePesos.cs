@@ -10,7 +10,7 @@ namespace packageM
     {
         int limiteEx = 20000;
 
-        public override void Extraccion(int modo, int monto)
+        public new void Extraccion(int modo, int monto)
         {
             if (monto > saldo)
             {
